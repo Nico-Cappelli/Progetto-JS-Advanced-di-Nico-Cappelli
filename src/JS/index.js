@@ -1,3 +1,4 @@
+import '../CSS/style.css';
 // Import della librerie axios e lodash
 import axios from "axios";
 const _ = require("lodash");  
