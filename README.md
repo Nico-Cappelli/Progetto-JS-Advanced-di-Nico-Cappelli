@@ -5,6 +5,10 @@ Tramite l'input è possibile cercare la città richiesta dal progetto e ricevere
 ## Bundle
 webpack
 
+## Librerie
+Axios
+Lodash
+
 ## Prova
 Può essere provato sul sito https://nico-cappelli-js-adv.netlify.app
 
