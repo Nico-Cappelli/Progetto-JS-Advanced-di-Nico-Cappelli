@@ -60,7 +60,6 @@ btn.addEventListener("click", function(){  //funzione al click
   })
 
  .catch (function (error){
-  //alert("the name of the city entered must be in English, or you have entered a city not present in our database, sorry!");
   takeCat.style.display = 'none';
   takeSco.style.display = 'none';
   takeSum.style.display = 'block';
