@@ -20,7 +20,6 @@ let correctName = function (name) {  //correzione del nome della città per migl
 };
 
 
-
 btn.addEventListener("click", function(){  //funzione al click
   cityN = correctName(input.value)
 
@@ -60,15 +59,15 @@ btn.addEventListener("click", function(){  //funzione al click
     
   })
 
- .catch (function (error){  //in caso di errore
-  takeSum.style.display = 'block';
-
-  takeSum.innerHTML = ("the name of the city entered must be in English, or you have entered a city not present in our database, sorry!")
-  
+ .catch (function (error){
+  //alert("the name of the city entered must be in English, or you have entered a city not present in our database, sorry!");
   takeCat.style.display = 'none';
   takeSco.style.display = 'none';
+  takeSum.style.display = 'block';
+
+  takeSum.innerHTML = ("The name of the city entered must be in English, or you have entered a city not present in our database, sorry!")
   return error;
- })
+ });
  input.value = "";  //azzeramento del valore di input
 
 });
