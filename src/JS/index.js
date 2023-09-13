@@ -21,11 +21,15 @@ let correctName = function (name) {  //correzione del nome della città per migl
 
 
 btn.addEventListener("click", function(){  //funzione al click
+
+if(input.value==("")){
+  alert("insert one city!");
+
+}else{
   cityN = correctName(input.value)
 
-
-
   //Funzione di chiamata con axios per il collegamento alla API esterna 
+
 
   axios.get(`https://api.teleport.org/api/urban_areas/slug:${cityN}/scores/`)
   .then(function (response) {
@@ -67,6 +71,7 @@ btn.addEventListener("click", function(){  //funzione al click
   takeSum.innerHTML = ("The name of the city entered must be in English, or you have entered a city not present in our database, sorry!")
   return error;
  });
+}
  input.value = "";  //azzeramento del valore di input
 
 });
