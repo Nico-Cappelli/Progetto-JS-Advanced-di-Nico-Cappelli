@@ -31,7 +31,7 @@ if(input.value==("")){
   //Funzione di chiamata con axios per il collegamento alla API esterna 
 
 
-  axios.get(`https://api.teleport.org/api/urban_areas/slug:${cityN}/scores/`)
+  axios.get(`https://api.teleport.org/api/urban_areas/slug:${cityN}/scores/`) //L'URL della chiamata API non è più esitestente
   .then(function (response) {
 
    
