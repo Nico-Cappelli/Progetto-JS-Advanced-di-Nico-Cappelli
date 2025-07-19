@@ -10,7 +10,7 @@ Axios
 Lodash
 
 ## Prova
-Può essere provato sul sito https://https://progettojsadv.netlify.app (non più funzionante, l'url del database non esiste più)
+Può essere provato sul sito https://progettojsadv.netlify.app (non più funzionante, l'url del database non esiste più)
 
 ### Come contribuire
 E' possibile migliore il programma previa richiesta allo sviluppatore tramite mail
