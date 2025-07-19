@@ -10,7 +10,7 @@ Axios
 Lodash
 
 ## Prova
-Può essere provato sul sito https://nico-cappelli-js-adv.netlify.app
+Può essere provato sul sito https://https://progettojsadv.netlify.app
 
 ### Come contribuire
 E' possibile migliore il programma previa richiesta allo sviluppatore tramite mail
